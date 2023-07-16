@@ -1,0 +1,55 @@
+*   {
+    margin: auto;
+    line-height: 1.5;
+}
+
+
+.navbar {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.nav-options {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    width: 200px;
+}
+
+
+
+.flex-container {
+    background-color: burlywood;
+    display: flex;
+}
+
+.flex-container img {
+    height: 200px;
+    width: 300px;
+}
+
+.comp1 {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.comp2 img {
+    border-radius: 20px;
+    box-shadow: 0 0 10px orangered;
+}
+
+.signup {
+    background-color: rosybrown;
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+.signup:hover {
+    background-color: white;
+    color: black;
+}
