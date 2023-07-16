@@ -5,9 +5,10 @@
 
 
 .navbar {
-    background-color: burlywood;
+    background-color: #1E2A37;
     display: flex;
     justify-content: space-between;
+    color: white;
 } 
 
 
@@ -21,8 +22,9 @@
 
 
 .flex-container {
-    background-color: burlywood;
+    background-color: #1E2A37;
     display: flex;
+    color: white;
 }
 
 .flex-container img {
@@ -35,14 +37,19 @@
     margin-bottom: 20px;
 }
 
+.comp1 p {
+    text-align: left;
+}
+
 .comp2 img {
     border-radius: 20px;
     box-shadow: 0 0 10px orangered;
 }
 
 .signup {
-    background-color: rosybrown;
+    background-color: #3A82F6;
     border-radius: 10px;
+    border: 1px solid #1E2A37;
     font-size: medium;
     color: white;
     height: 40px;
@@ -50,6 +57,74 @@
 }
 
 .signup:hover {
+    background-color: white;
+    color: black;
+}
+
+.random-information {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-around; */
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.textclass {
+    width: 80%;
+}
+
+.box1 {
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid #3A82F6;
+}
+
+.placeholder {
+    display: flex;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.main{
+    padding-top: 70px;
+    text-align: center;
+    width: 80%;
+}
+
+.sub {
+    width: 70%;
+    text-align: right;
+}
+
+.call {
+    background-color: #3A82F6;
+    border-radius: 10px;
+    padding: 30px;
+    margin-inline: 200px;
+    margin-block: 40px;
+    color: white;
+    display: flex;
+}
+
+.signupnew {
+    background-color: #3A82F6;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: medium;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+.signupnew:hover {
     background-color: white;
     color: black;
 }
