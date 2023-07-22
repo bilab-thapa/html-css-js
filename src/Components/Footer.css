@@ -1,0 +1,122 @@
+.footer-container{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10rem;
+    display: flex;
+}
+
+.text-top {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.text-bottom {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer-img {
+    height: 30rem;
+    width: 40rem;
+    background-image: url(../assets/img/contact.png);
+    background-size: contain;
+    margin-left: 5rem;
+}
+
+.contact-box {
+    margin: 1rem;
+    margin-left: 5rem;
+    height: 70vh;
+    width: 50%;
+    background-image: url(../assets/img/bg.jpg);
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.contact-box p {
+    display: flex;
+    flex-direction: column;
+    margin-block: 4rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.input-box1 {
+    width: 20rem;
+    height: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 3px solid #5a189a;
+    margin-bottom: 1rem;
+}
+
+.input-box2 {
+    width: 20rem;
+    height: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 3px solid #5a189a;
+
+    margin-bottom: 1rem;
+}
+.input-box3 {
+    width: 20rem;
+    height: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 3px solid #5a189a;
+
+    margin-bottom: 1rem;
+}
+
+
+.input-mesg {
+    width: 30rem;
+    height: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 0.18rem solid #5a189a;
+    line-height: 5;
+}
+
+.blank-fields {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.comic-button {
+    width: 15rem;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+  }
+  
+  .comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .comic-button:active {
+    background-color: #5a189a;
+    box-shadow: none;
+    color: white;
+    transform: translateY(4px);
+  }
+  

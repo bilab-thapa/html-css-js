@@ -1,0 +1,102 @@
+
+.intro {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-items{
+    display: flex;
+}
+
+
+.nav-items li{
+    padding: 2rem;
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: 400ms;
+}
+
+.nav-items a {
+    color: black;
+}
+
+.nav-items li:hover{
+    color: #5a189a;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.bilab {
+    font-size: 5rem;
+}
+   
+.download-cv {
+ width: 150px;
+ height: 50px;
+ border-radius: 10px;
+ border: 1px solid #865DFF;
+ position: relative;
+ overflow: hidden;
+ transition: all 0.5s ease-in;
+ z-index: 1;
+}
+
+.download-cv::before,
+.download-cv::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ width: 0;
+ height: 100%;
+ transform: skew(15deg);
+ transition: all 0.5s;
+ overflow: hidden;
+ z-index: -1;
+}
+
+.download-cv::before {
+ left: -10px;
+ background: #191825;
+}
+
+.download-cv::after {
+ right: -10px;
+ background: #5a189a;
+}
+
+.download-cv:hover::before,
+.download-cv:hover::after {
+ width: 58%;
+}
+
+.download-cv:hover {
+ color: white;
+ transition: 0.3s;
+}
+
+.download-cv  {
+ color: #FFA3FD;
+ font-size: 1.05rem;
+ font-weight: 500;
+ transition: all 0.3s ease-in;
+}
+
+.download-cv {
+    color: black;
+}
+
+.intro-text1 {
+    margin-top: 10rem;
+    padding-left: 10rem;
+    font-size: 3rem;
+}
+
+

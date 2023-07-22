@@ -1,0 +1,78 @@
+.about-section {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+
+.about-text {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.about-text-long {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.about-card {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    height: 20rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 16px;
+    padding-block: 60px;
+    transition: 500ms;
+    color: wheat;
+    background-color: #1C1C1E;
+}
+
+
+.about-card:hover {
+    background-color: wheat;
+    color: black;
+    transition: 500ms;
+    border-radius: 16px;
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+
+
+.about-card p {
+    font-size: 1rem;
+    margin-top: 20px;
+    color: white;
+    width: 40rem;
+    text-align: center;
+}
+
+.about-card:hover p{
+
+    color: black;
+    opacity: 70%;
+    transition: 500ms;
+
+}
+
+.row1 {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 5rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 2rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
