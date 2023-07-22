@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 80%;
 }
+
 
 
 .about-text {
@@ -31,6 +31,12 @@
     transition: 500ms;
     color: wheat;
     background-color: #1C1C1E;
+    width: 80%;
+}
+
+.about-title {
+    font-size: 2rem;
+    width: 80%;
 }
 
 
@@ -47,8 +53,9 @@
     font-size: 1rem;
     margin-top: 20px;
     color: white;
-    width: 40rem;
     text-align: center;
+    width: 80%;
+    margin-inline: auto;
 }
 
 .about-card:hover p{
@@ -61,18 +68,64 @@
 
 .row1 {
     display: flex;
-    gap: 5rem;
-    margin-bottom: 5rem;
-    margin: auto;
     align-items: center;
+    gap: 5rem;
+    margin-inline: 5rem;
     justify-content: center;
 }
 
 .row2 {
     display: flex;
     gap: 5rem;
-    margin-bottom: 2rem;
-    margin: auto;
     align-items: center;
+    margin-inline: 5rem;
     justify-content: center;
+}
+
+@media (max-width: 400px){
+    .about-card {
+        font-size: 1rem;
+        margin-top: 20px;
+        color: black;
+        text-align: center;
+        height: 150px;
+        width: 50rem;
+        padding-block: 10px;
+        border: 2px solid #5D3FD3;
+        background-color: white;
+    }
+
+    .about-card p{
+        font-size: 8px;
+        margin-top: 20px;
+        color: black;
+        text-align: center;
+        width: auto;
+    }
+    
+
+    .about-title {
+        font-size: 20px;
+        width: 2rem;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .row1 {
+        display: flex;
+        gap: 0rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-inline: 20px;
+    }
+    
+    .row2 {
+        display: flex;
+        gap: 0rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-inline: 20px;
+    }
 }

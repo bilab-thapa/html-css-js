@@ -1,9 +1,10 @@
 .portfolio-container {
+    display: flex;
     height: 38rem;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: auto;
-    overflow: hidden;
 }
 
 .projects {
@@ -68,3 +69,57 @@
     filter: blur(10px);
     transform: scale(0.9, 0.9);
   }
+
+
+  @media screen and (max-width:400px){
+    .portfolio-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }   
+
+    .portfolio-container{
+      flex-direction: row;
+    }
+    .projects {
+      margin-block: 1rem;
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    .cards {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+  
+    .cards .card {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 10rem;
+      width: 20rem;
+      border-radius: 10px;
+      color: black;
+      cursor: pointer;
+      transition: 400ms;
+      border: 0.3rem solid #5D3FD3;
+    }
+
+    .cards .card p.tip {
+      padding: 0;
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: black;
+    }
+    
+    .cards .card p.second-text {
+      font-size: 10px;
+      color: black;
+      width: 90%;
+      text-align: center;
+    }
+    
+}

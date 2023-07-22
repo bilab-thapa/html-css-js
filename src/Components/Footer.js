@@ -21,7 +21,7 @@ function Footer() {
             >
               <input
                 type="text"
-                className="input-box1"
+                className="input-box1 box1"
                 name="name"
                 placeholder="Your Name"
                 required
@@ -29,7 +29,7 @@ function Footer() {
               <br />
               <input
                 type="email"
-                className="input-box2"
+                className="input-box2 box1"
                 name="name"
                 placeholder="Your Email"
                 required
@@ -37,14 +37,14 @@ function Footer() {
               <br />
               <input
                 type="text"
-                className="input-box3"
+                className="input-box3 box1"
                 name="name"
                 placeholder="Subject"
               />
               <br />
               <textarea
                 type="text"
-                className="input-mesg"
+                className="input-mesg mesg"
                 name="name"
                 placeholder="Message"
                 required
